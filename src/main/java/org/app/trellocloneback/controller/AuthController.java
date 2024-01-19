@@ -9,5 +9,6 @@ public class AuthController {
     @PostMapping("/login")
     public String login(@RequestBody LoginRequestDto dto) {
         //TODO ログイン機能
+        return "TODO";
     }
 }
