@@ -1,8 +1,9 @@
+package org.app.trellocloneback.dto;
 import com.fasterxml.jackson.annotation.JsonProperty;
 
 public class LoginRequestDto {
-    @JsonProperty("username")
-    private String username;
+    @JsonProperty("userName")
+    private String userName;
 
     @JsonProperty("password")
     private String password;
@@ -11,7 +12,7 @@ public class LoginRequestDto {
     }
 
     public LoginRequestDto(String username, String password) {
-        this.username = username;
+        this.userName = userName;
         this.password = password;
     }
 }
